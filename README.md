@@ -13,9 +13,9 @@ User Datagram Protocol (UDP) is one of the core protocols of the Internet Protoc
 
 3) Sliding Window Protocol
 The sliding window is a technique for sending multiple frames at a time. It controls the data packets between the two devices where reliable and gradual delivery of data frames is needed.
-  a) Stop & Wait ARQ
-  b) Go-Back-N ARQ
-  c) Selective Repeat ARQ
+   1) Stop & Wait ARQ
+   2) Go-Back-N ARQ
+   3) Selective Repeat ARQ
 
 4) File Transfer Protocol:
 File Transfer Protocol(FTP) is an application layer protocol that moves files between local and remote file systems.
