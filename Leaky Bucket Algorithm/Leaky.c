@@ -19,7 +19,8 @@ void main()
         }
         else
         {
-            printf("\nDropped packets: %d \n", in-(bsize-bucket)); bucket=bsize;
+            printf("\nDropped packets: %d \n", in-(bsize-bucket)); 
+            bucket=bsize;
             printf("\nBucket status: %d out of %d", bucket, bsize);
         }
         bucket=bucket-out;
