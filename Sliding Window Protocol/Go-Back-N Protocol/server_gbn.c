@@ -28,7 +28,7 @@ void func(int connfd)
         f = atoi(buff);
         if (f != next)
         {
-            printf("Frame %d discarded\nAcknowledgement sent: %d\n", f, ack);
+            printf("Frame %d discarded\n", f);
             bzero(buff, MAX);
             snprintf(buff, sizeof(buff), "%d", ack);
             send(connfd, buff, sizeof(buff), 0);
