@@ -8,7 +8,7 @@ int main(void)
 {
     FILE *fp;
     int n,s;
-    char name[100], rcvmsg[100],rcvg[100],fname[100];
+    char name[100],rcvg[100],fname[100];
     int socket_desc;
     struct sockaddr_in server_addr;
 
