@@ -1,5 +1,5 @@
-# Network_Protocol_Algorithms
-Network Protocol Algorithms Using C Language
+# Computer_Network_Algorithms
+Computer Network Protocol Algorithms Using C Language
 
 These include Network communication technique algorithms used to transmit data between two linked devices.
 It employs socket programming to communicate between client and server.
