@@ -40,7 +40,7 @@ int main(void)
     while(1)
     {
         s=recv(socket_desc,rcvg,100,0);
-        rcvg[s]='I0';
+        rcvg[s]='\0';
         if(strcmp(rcvg,"error")==0)
         {
             printf("File is not available\n");
