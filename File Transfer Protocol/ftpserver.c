@@ -50,7 +50,7 @@ int main(void)
     printf("Connection accepted\n")
 
     n=recv(client_sock,rcv,100,0);
-    rcv[n]='I0';
+    rcv[n]='/0';
     fp=fopen(rcv,"r");
     if(fp==NULL)
     {
